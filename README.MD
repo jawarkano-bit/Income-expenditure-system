@@ -1,24 +1,25 @@
 # Income & Expenditure Management System
+Django + PostgreSQL | SME Financial Platform
+Author: Kofi John Awarkano | Ghana | github.com/jawarkano-bit
+For: MSc Data Science and Business Informatics - University of Pisa
 
-A financial automation platform for SMEs - automates income tracking, expenditure management, QR-coded receipt generation, and multi-payment integration (Cash, MoMo, Card).
+Overview:
+Financial platform for SMEs to automate income, expenditure, receipts, payments. Built with Django and PostgreSQL to replace manual Excel and Sage.
 
-**Developer:** Awarkano Kofi John | Sunyani technical University Ghana | BSc Information Systems
-**Stack:** Django, PostgreSQL, Python, JavaScript
+Features:
+- Income & Expenditure automation
+- Receipts & Payments management
+- Financial reporting dashboard
+- PostgreSQL database design
+- SME user authentication
 
-## Problem Solved
-Ghanaian SMEs lose money due to manual accounting. This system digitalizes and automates.
+Tech Stack: Django, PostgreSQL, Python, HTML/CSS
 
-## Features
-- Income & Expenditure Tracking with Real-time Analytics
-- QR-Coded Receipt Generation
-- Role-Based Access: Admin, Cashier, Accountant
-- Multi-Payment: Cash, Mobile Money, Card
-- Financial Reports & Dashboard
+Why for Pisa: As Accounting graduate (HND/BTech Sunyani Technical), I combined accounting domain with Django backend to solve real SME problems. This is Business Informatics.
 
-## Project Link
-https://github.com/jawarkano-bit/Income--expenditure-system
+How to Run:
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
 
-## Future Research
-Extending this for MSc Computer Science - Financial Technology Systems for African SMEs.
-
-Developed in Accra, Ghana - 2024
+Contact: jawarkano@gmail.com
